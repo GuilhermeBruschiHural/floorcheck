@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Database
+*.db
+
+# YOLO model weights
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Claude
+.claude/settings.local.json
+.claude/plans/
